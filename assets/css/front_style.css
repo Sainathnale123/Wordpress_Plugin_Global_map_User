@@ -1,0 +1,207 @@
+.errormsg_div {
+    border: 1px solid #f62f30;
+    padding: 10px;
+    background-color: #ff7a7a;
+    color: white;
+    text-align: center;
+}  
+
+/* 3 feb*/
+/*Map_single page css*/
+@media only screen and (min-width: 320px) and (max-width: 720px){
+#content .entry-content table tr:nth-child(even) {
+    background-color: #e7e4e4;
+  color:black;
+}
+
+}
+
+.entry-content table tr:nth-child(even) {
+    background-color: #e7e4e4;
+  color:black;
+}
+
+.entry-content table tr:nth-child(odd) {
+    background-color: #99d399;
+}
+.entry-content table tr:nth-child(1) {
+    background-color: #34a4ca;
+    background: linear-gradient(
+      135deg
+      , #34a4ca 00%, #59d7dd 28%, #a8f2f0 59%, #d0f8ef 84%);
+        
+   color:white;
+  border-color: black;
+}
+.entry-content table tbody{
+
+  border: 1px solid black;
+}
+
+ tr:nth-child(odd):hover {
+    background-color:#3498db;
+  color: white;
+  
+}
+.entry-content table tr:nth-child(even):hover {
+    background-color:#3498db;
+    border: 1px solid black;
+  color: white;
+}
+.entry-content table tr:nth-child(odd) {
+    background-color: #fff;
+  color:black;
+}
+/*Map_single page css stop*/
+/* registration page css start*/
+@media only screen and (min-width: 320px) and (max-width: 720px){
+
+	#primary .Partner_form_section #onsubmitbutton {
+    width: 100px;
+     color: white;
+    border-radius: 91px;
+    background-color: #59d7dd;
+    border-color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+
+	}}
+@media only screen and (min-width: 320px) and (max-width: 720px){
+
+	#primary .entry-content .Partner_form_section #partner_form {
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 38px #44444454;
+   background: linear-gradient(
+135deg
+, #34a4ca 0%, #59d7dd 28%, #a8f2f0 59%, #d0f8ef 84%, #d6f6e1 100%);
+	}}
+ 
+#primary .entry-content .Partner_form_section #partner_form {
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 38px #44444454;
+   background: linear-gradient(
+135deg
+, #34a4ca 0%, #59d7dd 28%, #a8f2f0 59% );
+	}
+   
+  .Partner_form_section #partner_form input, .Partner_form_section #partner_form select{
+    border: none;
+    background-color: #a8f2f0;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+  }
+ 
+
+  .Partner_form_section #partner_form input:focus, .Partner_form_section #partner_form select:focus{
+    outline: none;
+  }
+
+.Partner_form_section #onsubmitbutton {
+    width: 266px;
+     color: black;
+    border-radius: 91px;
+    padding: 10px;
+    background-color: #59d7dd;
+    border-color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+text-transform: uppercase;
+font-weight: 400;
+    transition: 0.31s all;
+}
+
+.Partner_form_section #email, #fname, #phone_number, #address, #country, #submit {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid  ;
+    background-color: #f0f0f0; 
+    margin: 0px auto;
+    padding-top: 0px;
+    border-radius: 5px;
+    padding: 0px;
+    margin-bottom: 19px;
+}
+
+/* .Partner_form_section #onsubmitbutton:hover {
+ background-color: #d0f8ef;
+  color:black;
+  border-color: #cfcfcf;
+} */
+.Partner_form_section #onsubmitbutton:hover {
+  background-color: #34a4ca;
+  color: white;
+  border-color: #34a4ca;
+}
+/* registration page css stop*/
+/* registration page css stop*/
+/* view map css start*/
+@media only screen and (min-width: 320px) and (max-width: 720px){
+#primary .entry-content .Map_image #World_map_svg {
+    width: 100%;
+    box-shadow: 1px 0px 0px 2px;
+    background-color: #77c4f9;
+    /* height: 800px; */
+    height: 300px;
+    border-color: #0000;
+    border-radius: 10px;
+}}
+
+@media only screen and (min-width: 768px) and (max-width: 1281px) { 
+#primary .entry-content .Map_image #World_map_svg {
+ width: 100%;
+    box-shadow: 1px 0px 0px 2px;
+    background-color: #77c4f9;
+    /* height: 800px; */
+    height: 300px;
+    border-color: #0000;
+    border-radius: 10px;
+}
+}
+
+.entry-content #Refresh_button {
+      padding: 15px 70px;
+      margin-bottom: 20px;
+    border: none;
+    border-radius: 30px;
+    background: #3498db ;
+    color: white;  
+    transition: 0.31s all;
+ 
+}
+
+ .entry-content #Refresh_button:hover
+{
+   background: linear-gradient(
+  110deg
+  , rgba(255, 255, 255, 0) 40%, rgba(235, 235, 235, 0.4), rgba(255, 255, 255, 0) 62%), linear-gradient(#001847, #001847);
+
+} 
+.entry-content  .Map_image {
+    display: flex;
+    justify-content: center;
+}
+
+.entry-content .Map_image #World_map_svg {
+    width:1200px;
+    box-shadow: 1px 0px 10px rgb(0, 0, 0, 0.3);
+  background-color: #77c4f9;
+ height: 800px;
+   border:  1px solid #0000 ;
+  border-radius: 10px;
+  
+}
+.Map_image #World_map_svg:hover {
+   background: linear-gradient( 
+315deg
+ , #01a4dd 15%, #4aadf1 66%);
+}
+/* view map css stop*/
+
+
+
+
